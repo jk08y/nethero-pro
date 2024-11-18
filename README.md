@@ -90,4 +90,12 @@ MIT License
 [JsApp Pro](https://jsapp.pro)
 
 ## 📸 Screenshots
-[Placeholder for Template Screenshots]
+![NetHero-pro](https://raw.githubusercontent.com/jk08y/nethero-pro/refs/heads/main/screenshots/Screenshot%20from%202024-11-18%2021-36-57.png)
+![NetHero-pro](https://raw.githubusercontent.com/jk08y/nethero-pro/refs/heads/main/screenshots/Screenshot%20from%202024-11-18%2021-37-12.png)
+![NetHero-pro](https://raw.githubusercontent.com/jk08y/nethero-pro/refs/heads/main/screenshots/Screenshot%20from%202024-11-18%2021-37-28.png)
+
+## 📫 Contact
+
+-  𝕏: [@jk08y](https://x.com/jk08y)
+- GitHub: [@jk08y](https://github.com/jk08y)
+- 
