@@ -200,31 +200,31 @@ const NetHeroPro = () => {
         )}
       </nav>
 
-      {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.15),transparent_50%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.1),transparent_50%)]" />
-        <div className="max-w-7xl mx-auto px-6 py-20 text-center relative">
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-            Your Expert Partner in
-            <span className="block bg-gradient-to-r from-emerald-600 to-emerald-800 bg-clip-text text-transparent">
-              IT Solutions
-            </span>
-          </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-            Elevating businesses through cutting-edge technology solutions and unparalleled expertise
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg">
-              Get Started
-              <ChevronRight className="ml-2 h-4 w-4" />
-            </Button>
-            <Button size="lg" variant="outline">
-              Learn More
-            </Button>
-          </div>
-        </div>
-      </section>
+{/* Hero Section */}
+<section id="home" className="relative min-h-[85vh] md:min-h-[80vh] flex items-center">
+  <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.15),transparent_50%)]" />
+  <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.1),transparent_50%)]" />
+  <div className="max-w-7xl mx-auto px-6 py-12 md:py-16 text-center relative">
+    <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
+      Your Expert Partner in
+      <span className="block bg-gradient-to-r from-emerald-600 to-emerald-800 bg-clip-text text-transparent">
+        IT Solutions
+      </span>
+    </h1>
+    <p className="text-xl text-gray-600 mb-8 md:mb-12 max-w-2xl mx-auto">
+      Elevating businesses through cutting-edge technology solutions and unparalleled expertise
+    </p>
+    <div className="flex flex-col sm:flex-row justify-center gap-4">
+      <Button size="lg">
+        Get Started
+        <ChevronRight className="ml-2 h-4 w-4" />
+      </Button>
+      <Button size="lg" variant="outline">
+        Learn More
+      </Button>
+    </div>
+  </div>
+</section>
 
       {/* Services Section */}
       <section id="services" className="py-20">
