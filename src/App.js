@@ -283,7 +283,7 @@ const NetHeroPro = () => {
       <div className="flex justify-center mt-12">
         <Button 
           size="lg"
-          onClick={() => window.open('https://your-custom-url.com', '_blank')}
+          onClick={() => window.open('#', '_blank')}
         >
           Learn More About Us
           <ChevronRight className="ml-2 h-4 w-4" />
