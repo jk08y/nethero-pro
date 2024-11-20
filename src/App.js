@@ -226,6 +226,73 @@ const NetHeroPro = () => {
   </div>
 </section>
 
+<section id="about" className="py-20 bg-gradient-to-b from-white via-emerald-50 to-emerald-50">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-bold text-gray-900 mb-4">Who We Are</h2>
+      <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+        [Company Name] is a leader in IT solutions, dedicated to delivering innovative networking and technology services for businesses and homes worldwide.
+      </p>
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <Card className="flex flex-col items-center text-center">
+        <div className="mb-4 text-emerald-600">
+          {/* Icon: Customized Cabling */}
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M3 12h18M12 3v18" />
+            <path d="M8 8h8v8H8z" />
+          </svg>
+        </div>
+        <h3 className="text-xl font-semibold mb-2">Tailored Networking</h3>
+        <p className="text-gray-600">
+          [Custom text for structured cabling solutions tailored to fit your needs.]
+        </p>
+      </Card>
+      <Card className="flex flex-col items-center text-center">
+        <div className="mb-4 text-emerald-600">
+          {/* Icon: Advanced Connectivity */}
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" stroke="currentColor" strokeWidth="2">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 2v20M2 12h20" />
+          </svg>
+        </div>
+        <h3 className="text-xl font-semibold mb-2">Advanced Connectivity</h3>
+        <p className="text-gray-600">
+          [Custom text about providing reliable and fast internet solutions.]
+        </p>
+      </Card>
+      <Card className="flex flex-col items-center text-center">
+        <div className="mb-4 text-emerald-600">
+          {/* Icon: Intelligent Security */}
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M10 2h8v4H10z" />
+            <path d="M6 6h20v16H6z" />
+            <path d="M12 18h8" />
+          </svg>
+        </div>
+        <h3 className="text-xl font-semibold mb-2">Intelligent Security</h3>
+        <p className="text-gray-600">
+          [Custom text about delivering innovative security solutions.]
+        </p>
+      </Card>
+    </div>
+    <div className="text-center mt-12">
+      <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+        [Custom mission statement about empowering clients with top-notch IT infrastructure and security services.]
+      </p>
+      <div className="flex justify-center mt-12">
+        <Button 
+          size="lg"
+          onClick={() => window.open('https://your-custom-url.com', '_blank')}
+        >
+          Learn More About Us
+          <ChevronRight className="ml-2 h-4 w-4" />
+        </Button>
+      </div>
+    </div>
+  </div>
+</section>
+
       {/* Services Section */}
       <section id="services" className="py-20">
         <div className="max-w-7xl mx-auto px-6">
