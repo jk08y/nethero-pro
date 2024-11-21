@@ -67,7 +67,7 @@ nethero-pro/
 
 ```
 
-## 🌈 Color Palette
+##  Color Palette
 - Primary: Emerald Green (#10B981)
 - Background: White/Emerald Gradient
 - Text: Gray Scales (900, 600)
