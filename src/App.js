@@ -68,7 +68,6 @@ const ContactInfo = ({ icon: Icon, text }) => (
   </div>
 );
 
-// Input Component
 const Input = ({ className = '', ...props }) => (
   <input
     className={`w-full px-4 py-2 rounded-lg border border-emerald-100 focus:border-emerald-300 
